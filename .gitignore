@@ -1,0 +1,16 @@
+# Godot 4
+.godot/
+*.translation
+export_credentials.cfg
+
+# 导出产物
+build/*
+!build/.gdignore
+
+# 字体裁剪工具的本地环境与下载缓存
+tools/.venv/
+tools/.cache/
+
+# 截图巡检输出
+shots/*
+!shots/.gdignore
